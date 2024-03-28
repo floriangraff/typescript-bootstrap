@@ -1,0 +1,21 @@
+{
+  "name": "ts-bootstrap",
+  "version": "1.0.0",
+  "description": "This is a TypeScript Bootstrap project to quickly get developing in TypeScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc-watch --onSuccess \"npm start\"",
+    "start": "node ./dist/main.js"
+  },
+  "keywords": [
+    "TypeScript",
+    "TS"
+  ],
+  "author": "Florian Graff",
+  "license": "MIT",
+  "devDependencies": {
+    "tsc-watch": "^6.1.0",
+    "typescript": "^5.4.3"
+  }
+}
